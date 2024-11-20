@@ -94,7 +94,7 @@ class Weekly_Menu:
 
         return df
 
-    def get_schedule(self, date, hall):
+    def _get_schedule(self, date, hall):
         date = date.strftime('%m/%d/%Y')
         hall_index = 0 if hall == 'Brandywine' else 1
         for meal in self.weekly_output[hall_index]:
@@ -103,7 +103,7 @@ class Weekly_Menu:
         return schedule
 
     def available_items_by_meal(self, date, time, hall):
-        schedule = self.get_schedule(date, hall)
+        schedule = self._get_schedule(date, hall)
         current_time = time.strftime('%H%M')
         items = []
         selected_meal_type = None
