@@ -36,17 +36,15 @@ def week_menu(today: datetime) -> None:
             print("\nBrandywine Menu:\n")
             print(brandywine_response)
 
-def week_menu_dict(today: datetime) -> dict:
-    'Given a datetime object of a starting date, prints the following weeks menu for Anteatery and Brandywine'
-    # Can be changed to fetch different number of days into the future. Currently fetches 7 days into the future.
-    out = dict()
+def week_menu_dict(start_date: datetime, days) -> list:
+    '''Given a datetime object of a starting date, returns the menus for Anteatery and Brandywine for
+    a specified amount of days in the future'''
 
-    for i in range(1, 8):
-        next_date = today + timedelta(days=i)
+    brandywine_list = []
+    anteatery_list = []
+    for i in range(1, days):
+        next_date = start_date + timedelta(days=i)
         date_string = next_date.strftime('%m/%d/%Y')
-
-        if date_string not in out:
-            out[date_string] = {'anteatery': {}, 'brandywine': {}}
 
         # 3 Meals
         for x in range(3):
@@ -57,7 +55,10 @@ def week_menu_dict(today: datetime) -> dict:
             brandywine_response = parsing.make_response_body(
                 'brandywine', x, date_string)
 
-            if x == 0:
+            anteatery_list.append(anteatery_response)
+            brandywine_list.append(brandywine_response)
+
+            '''if x == 0:
                 out[date_string]['anteatery']['breakfast'] = anteatery_response
                 out[date_string]['brandywine']['breakfast'] = brandywine_response
             elif x == 1:
@@ -68,9 +69,9 @@ def week_menu_dict(today: datetime) -> dict:
                 out[date_string]['brandywine']['dinner'] = brandywine_response
             elif x == 3:
                 out[date_string]['anteatery']['brunch'] = anteatery_response
-                out[date_string]['brandywine']['brunch'] = brandywine_response
-
-    return out
+                out[date_string]['brandywine']['brunch'] = brandywine_response'''
+    out_list = [brandywine_list, anteatery_list]
+    return out_list
 
 
 
