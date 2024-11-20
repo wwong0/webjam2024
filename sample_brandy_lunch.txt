@@ -1,0 +1,1403 @@
+{
+    "date": "11/21/2024",
+    "restaurant": "Brandywine",
+    "refreshTime": 1732062739,
+    "schedule": {
+        "breakfast": {
+            "start": 715,
+            "end": 1100
+        },
+        "lunch": {
+            "start": 1100,
+            "end": 430
+        },
+        "dinner": {
+            "start": 1630,
+            "end": 2300
+        }
+    },
+    "currentMeal": "lunch",
+    "price": {
+        "breakfast": 14.75,
+        "lunch": 15.75,
+        "brunch": 15.75,
+        "dinner": 15.75
+    },
+    "themed": [],
+    "all": [
+        {
+            "station": "Saute",
+            "menu": [
+                {
+                    "category": "Entr\u00e9es",
+                    "items": [
+                        {
+                            "name": "Sauteed Bruschetta Ravioli",
+                            "description": "Saut\u00e9ed bruschetta and ravioli with fresh basil and Asiago",
+                            "nutrition": {
+                                "isVegan": false,
+                                "isVegetarian": false,
+                                "servingSize": "1",
+                                "servingUnit": "serving",
+                                "calories": "220",
+                                "caloriesFromFat": null,
+                                "totalFat": "11",
+                                "transFat": "0",
+                                "cholesterol": "55",
+                                "sodium": "430",
+                                "totalCarbohydrates": "23",
+                                "dietaryFiber": "2",
+                                "sugars": "2",
+                                "protein": "4",
+                                "vitaminA": "20.83",
+                                "vitaminC": "4.95",
+                                "calcium": "216.77",
+                                "iron": "1.20",
+                                "saturatedFat": "4",
+                                "isEatWell": false,
+                                "isPlantForward": false,
+                                "isWholeGrain": false
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "station": "The Crossroads",
+            "menu": [
+                {
+                    "category": "Entr\u00e9es",
+                    "items": [
+                        {
+                            "name": "Crispy Chicken Nuggets",
+                            "description": "Tender chicken coated in a perfectly seasoned, golden-brown breading and fried to perfection",
+                            "nutrition": {
+                                "isVegan": false,
+                                "isVegetarian": false,
+                                "servingSize": "5",
+                                "servingUnit": "each",
+                                "calories": "300",
+                                "caloriesFromFat": null,
+                                "totalFat": "24",
+                                "transFat": "0",
+                                "cholesterol": "35",
+                                "sodium": "520",
+                                "totalCarbohydrates": "11",
+                                "dietaryFiber": "0",
+                                "sugars": "0",
+                                "protein": "12",
+                                "vitaminA": null,
+                                "vitaminC": "0.01",
+                                "calcium": "10.74",
+                                "iron": "0.63",
+                                "saturatedFat": "4.5",
+                                "isEatWell": false,
+                                "isPlantForward": false,
+                                "isWholeGrain": false
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "station": "The Farm Stand (Soups)",
+            "menu": [
+                {
+                    "category": "Soups",
+                    "items": [
+                        {
+                            "name": "Minestrone Soup (6  fl oz)",
+                            "description": "Hearty Italian vegetable soup with beans, ditalini pasta, bacon & Parmesan in vegetable broth",
+                            "nutrition": {
+                                "isVegan": false,
+                                "isVegetarian": false,
+                                "servingSize": "6",
+                                "servingUnit": "fl oz",
+                                "calories": "110",
+                                "caloriesFromFat": null,
+                                "totalFat": "3.5",
+                                "transFat": "0",
+                                "cholesterol": "185",
+                                "sodium": "280",
+                                "totalCarbohydrates": "14",
+                                "dietaryFiber": "2",
+                                "sugars": "2",
+                                "protein": "5",
+                                "vitaminA": "50.47",
+                                "vitaminC": "6.11",
+                                "calcium": "70.12",
+                                "iron": "3.52",
+                                "saturatedFat": "1",
+                                "isEatWell": false,
+                                "isPlantForward": false,
+                                "isWholeGrain": false
+                            }
+                        },
+                        {
+                            "name": "Chili Con Carne (6  fl oz)",
+                            "description": "A Southwest spiced stew of ground beef, tomatoes, onion, green peppers, garlic and kidney beans",
+                            "nutrition": {
+                                "isVegan": false,
+                                "isVegetarian": false,
+                                "servingSize": "6",
+                                "servingUnit": "fl oz",
+                                "calories": "180",
+                                "caloriesFromFat": null,
+                                "totalFat": "9",
+                                "transFat": "0",
+                                "cholesterol": "25",
+                                "sodium": "280",
+                                "totalCarbohydrates": "17",
+                                "dietaryFiber": "5",
+                                "sugars": "3",
+                                "protein": "10",
+                                "vitaminA": "33.06",
+                                "vitaminC": "11.45",
+                                "calcium": "41.45",
+                                "iron": "2.79",
+                                "saturatedFat": "3.5",
+                                "isEatWell": false,
+                                "isPlantForward": false,
+                                "isWholeGrain": false
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "station": "Grubb",
+            "menu": [
+                {
+                    "category": "Sides",
+                    "items": [
+                        {
+                            "name": "Cilantro Lime Rice",
+                            "description": "Long grain white rice with lime and cilantro",
+                            "nutrition": {
+                                "isVegan": true,
+                                "isVegetarian": true,
+                                "servingSize": "1",
+                                "servingUnit": "/2 cup",
+                                "calories": "120",
+                                "caloriesFromFat": null,
+                                "totalFat": "0.5",
+                                "transFat": "0",
+                                "cholesterol": "0",
+                                "sodium": "45",
+                                "totalCarbohydrates": "27",
+                                "dietaryFiber": "0",
+                                "sugars": "0",
+                                "protein": "3",
+                                "vitaminA": "0.50",
+                                "vitaminC": "0.80",
+                                "calcium": "47.79",
+                                "iron": "1.54",
+                                "saturatedFat": "0",
+                                "isEatWell": false,
+                                "isPlantForward": false,
+                                "isWholeGrain": false
+                            }
+                        },
+                        {
+                            "name": "Vegetable Medley",
+                            "description": "Seasoned fresh broccoli, cauliflower and carrots sauteed with red onions",
+                            "nutrition": {
+                                "isVegan": false,
+                                "isVegetarian": false,
+                                "servingSize": "1",
+                                "servingUnit": "/2 cup",
+                                "calories": "45",
+                                "caloriesFromFat": null,
+                                "totalFat": "2.5",
+                                "transFat": "0",
+                                "cholesterol": "0",
+                                "sodium": "55",
+                                "totalCarbohydrates": "6",
+                                "dietaryFiber": "2",
+                                "sugars": "2",
+                                "protein": "1",
+                                "vitaminA": "236.18",
+                                "vitaminC": "33.22",
+                                "calcium": "25.16",
+                                "iron": "0.35",
+                                "saturatedFat": "1",
+                                "isEatWell": false,
+                                "isPlantForward": true,
+                                "isWholeGrain": false
+                            }
+                        }
+                    ]
+                },
+                {
+                    "category": "Entr\u00e9es",
+                    "items": [
+                        {
+                            "name": "Chipotle Orange Chicken",
+                            "description": "Baked chicken seasoned with a Latin spice blend then tossed with smoky-sweet chipotle orange glaze",
+                            "nutrition": {
+                                "isVegan": false,
+                                "isVegetarian": false,
+                                "servingSize": "2",
+                                "servingUnit": "piece",
+                                "calories": "350",
+                                "caloriesFromFat": null,
+                                "totalFat": "24",
+                                "transFat": "0",
+                                "cholesterol": "100",
+                                "sodium": "320",
+                                "totalCarbohydrates": "13",
+                                "dietaryFiber": "less than 1",
+                                "sugars": "11",
+                                "protein": "22",
+                                "vitaminA": "65.60",
+                                "vitaminC": "1.72",
+                                "calcium": "14.84",
+                                "iron": "1.33",
+                                "saturatedFat": "7",
+                                "isEatWell": false,
+                                "isPlantForward": false,
+                                "isWholeGrain": false
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "station": "Compass",
+            "menu": [
+                {
+                    "category": "Sides",
+                    "items": [
+                        {
+                            "name": "Baked Russet Potato (1  each)",
+                            "description": "Oven-roasted russet potato",
+                            "nutrition": {
+                                "isVegan": true,
+                                "isVegetarian": true,
+                                "servingSize": "1",
+                                "servingUnit": "each",
+                                "calories": "120",
+                                "caloriesFromFat": null,
+                                "totalFat": "0",
+                                "transFat": "0",
+                                "cholesterol": "0",
+                                "sodium": "10",
+                                "totalCarbohydrates": "28",
+                                "dietaryFiber": "2",
+                                "sugars": "less than 1",
+                                "protein": "3",
+                                "vitaminA": "1.55",
+                                "vitaminC": "8.83",
+                                "calcium": "20.15",
+                                "iron": "1.33",
+                                "saturatedFat": "0",
+                                "isEatWell": false,
+                                "isPlantForward": false,
+                                "isWholeGrain": false
+                            }
+                        }
+                    ]
+                },
+                {
+                    "category": "Soups",
+                    "items": [
+                        {
+                            "name": "Three Bean Chili (6  fl oz)",
+                            "description": "Vegetarian tomato chili with black, white and kidney beans",
+                            "nutrition": {
+                                "isVegan": true,
+                                "isVegetarian": true,
+                                "servingSize": "6",
+                                "servingUnit": "fl oz",
+                                "calories": "100",
+                                "caloriesFromFat": null,
+                                "totalFat": "1.5",
+                                "transFat": "0",
+                                "cholesterol": "0",
+                                "sodium": "260",
+                                "totalCarbohydrates": "18",
+                                "dietaryFiber": "4",
+                                "sugars": "4",
+                                "protein": "4",
+                                "vitaminA": null,
+                                "vitaminC": "24.71",
+                                "calcium": "31.71",
+                                "iron": "14.76",
+                                "saturatedFat": "0",
+                                "isEatWell": false,
+                                "isPlantForward": false,
+                                "isWholeGrain": false
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "station": "Hearth",
+            "menu": [
+                {
+                    "category": "Pizza",
+                    "items": [
+                        {
+                            "name": "Buffalo Chicken Flatbread",
+                            "description": "Grilled chicken, buffalo sauce, shredded mozzarella, vine ripe tomato, crumbled blue cheese, scallions",
+                            "nutrition": {
+                                "isVegan": false,
+                                "isVegetarian": false,
+                                "servingSize": "1",
+                                "servingUnit": "each",
+                                "calories": "530",
+                                "caloriesFromFat": null,
+                                "totalFat": "21",
+                                "transFat": "0",
+                                "cholesterol": "90",
+                                "sodium": "2010",
+                                "totalCarbohydrates": "48",
+                                "dietaryFiber": "2",
+                                "sugars": "4",
+                                "protein": "38",
+                                "vitaminA": null,
+                                "vitaminC": "3.93",
+                                "calcium": "359.21",
+                                "iron": "3.73",
+                                "saturatedFat": "9",
+                                "isEatWell": false,
+                                "isPlantForward": false,
+                                "isWholeGrain": false
+                            }
+                        },
+                        {
+                            "name": "Classic Cheese Pizza",
+                            "description": "House-made pizza dough topped with rich tomato sauce and a generous layer of melted mozzarella",
+                            "nutrition": {
+                                "isVegan": false,
+                                "isVegetarian": false,
+                                "servingSize": "1",
+                                "servingUnit": "/8 cut",
+                                "calories": "280",
+                                "caloriesFromFat": null,
+                                "totalFat": "11",
+                                "transFat": "0",
+                                "cholesterol": "25",
+                                "sodium": "550",
+                                "totalCarbohydrates": "34",
+                                "dietaryFiber": "2",
+                                "sugars": "2",
+                                "protein": "12",
+                                "vitaminA": "61.32",
+                                "vitaminC": "0.00",
+                                "calcium": "164.32",
+                                "iron": "2.29",
+                                "saturatedFat": "4.5",
+                                "isEatWell": false,
+                                "isPlantForward": false,
+                                "isWholeGrain": false
+                            }
+                        },
+                        {
+                            "name": "Pepperoni Pizza",
+                            "description": "House-made pizza dough topped with crispy pepperoni slices, rich tomato sauce and mozzarella cheese",
+                            "nutrition": {
+                                "isVegan": false,
+                                "isVegetarian": false,
+                                "servingSize": "1",
+                                "servingUnit": "/8 cut",
+                                "calories": "300",
+                                "caloriesFromFat": null,
+                                "totalFat": "13",
+                                "transFat": "0",
+                                "cholesterol": "30",
+                                "sodium": "640",
+                                "totalCarbohydrates": "35",
+                                "dietaryFiber": "2",
+                                "sugars": "3",
+                                "protein": "13",
+                                "vitaminA": "62.41",
+                                "vitaminC": "0.00",
+                                "calcium": "165.74",
+                                "iron": "2.39",
+                                "saturatedFat": "6",
+                                "isEatWell": false,
+                                "isPlantForward": false,
+                                "isWholeGrain": false
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "station": "Ember",
+            "menu": [
+                {
+                    "category": "Hot Sandwiches ",
+                    "items": [
+                        {
+                            "name": "Cheeseburger",
+                            "description": "Juicy all-beef burger topped with American cheese served hot-off-the-grill on a fresh, soft bun",
+                            "nutrition": {
+                                "isVegan": false,
+                                "isVegetarian": false,
+                                "servingSize": "1",
+                                "servingUnit": "each",
+                                "calories": "400",
+                                "caloriesFromFat": null,
+                                "totalFat": "22",
+                                "transFat": "1",
+                                "cholesterol": "60",
+                                "sodium": "430",
+                                "totalCarbohydrates": "31",
+                                "dietaryFiber": "less than 1",
+                                "sugars": "4",
+                                "protein": "19",
+                                "vitaminA": "38.02",
+                                "vitaminC": "0.00",
+                                "calcium": "148.31",
+                                "iron": "2.89",
+                                "saturatedFat": "9",
+                                "isEatWell": false,
+                                "isPlantForward": false,
+                                "isWholeGrain": false
+                            }
+                        },
+                        {
+                            "name": "Grilled Black Bean Burger",
+                            "description": "Gardenburger\u00ae black bean burger served hot-off-the-grill on a fresh, soft bun",
+                            "nutrition": {
+                                "isVegan": false,
+                                "isVegetarian": false,
+                                "servingSize": "1",
+                                "servingUnit": "each",
+                                "calories": "330",
+                                "caloriesFromFat": null,
+                                "totalFat": "6",
+                                "transFat": "0",
+                                "cholesterol": "0",
+                                "sodium": "720",
+                                "totalCarbohydrates": "56",
+                                "dietaryFiber": "10",
+                                "sugars": "7",
+                                "protein": "20",
+                                "vitaminA": "0.00",
+                                "vitaminC": "10.79",
+                                "calcium": "136.05",
+                                "iron": "4.69",
+                                "saturatedFat": "1",
+                                "isEatWell": false,
+                                "isPlantForward": false,
+                                "isWholeGrain": false
+                            }
+                        },
+                        {
+                            "name": "Classic Hot Dog",
+                            "description": "Grilled  hot dog on a roll",
+                            "nutrition": {
+                                "isVegan": false,
+                                "isVegetarian": false,
+                                "servingSize": "1",
+                                "servingUnit": "each",
+                                "calories": "300",
+                                "caloriesFromFat": null,
+                                "totalFat": "18",
+                                "transFat": "0",
+                                "cholesterol": "30",
+                                "sodium": "740",
+                                "totalCarbohydrates": "26",
+                                "dietaryFiber": "1",
+                                "sugars": "3",
+                                "protein": "11",
+                                "vitaminA": null,
+                                "vitaminC": "0.00",
+                                "calcium": "43.73",
+                                "iron": "33.82",
+                                "saturatedFat": "6",
+                                "isEatWell": false,
+                                "isPlantForward": false,
+                                "isWholeGrain": false
+                            }
+                        },
+                        {
+                            "name": "Crispy Chicken Sandwich",
+                            "description": "Breaded chicken breast fried to perfection served on a toasted bun with lettuce & mayo",
+                            "nutrition": {
+                                "isVegan": false,
+                                "isVegetarian": false,
+                                "servingSize": "1",
+                                "servingUnit": "each",
+                                "calories": "480",
+                                "caloriesFromFat": null,
+                                "totalFat": "27",
+                                "transFat": "0",
+                                "cholesterol": "40",
+                                "sodium": "930",
+                                "totalCarbohydrates": "44",
+                                "dietaryFiber": "2",
+                                "sugars": "5",
+                                "protein": "18",
+                                "vitaminA": "52.45",
+                                "vitaminC": "1.32",
+                                "calcium": "68.14",
+                                "iron": "2.45",
+                                "saturatedFat": "4.5",
+                                "isEatWell": false,
+                                "isPlantForward": false,
+                                "isWholeGrain": false
+                            }
+                        },
+                        {
+                            "name": "Grilled Herb Chicken Sandwich",
+                            "description": "Tender boneless chicken marinated in orange juice, garlic, basil and thyme on a fresh, soft bun",
+                            "nutrition": {
+                                "isVegan": false,
+                                "isVegetarian": false,
+                                "servingSize": "1",
+                                "servingUnit": "each",
+                                "calories": "310",
+                                "caloriesFromFat": null,
+                                "totalFat": "6",
+                                "transFat": "0",
+                                "cholesterol": "85",
+                                "sodium": "320",
+                                "totalCarbohydrates": "30",
+                                "dietaryFiber": "less than 1",
+                                "sugars": "4",
+                                "protein": "31",
+                                "vitaminA": "10.34",
+                                "vitaminC": "0.12",
+                                "calcium": "56.44",
+                                "iron": "2.22",
+                                "saturatedFat": "1",
+                                "isEatWell": false,
+                                "isPlantForward": false,
+                                "isWholeGrain": false
+                            }
+                        }
+                    ]
+                },
+                {
+                    "category": "Protein",
+                    "items": [
+                        {
+                            "name": "American Cheese",
+                            "description": "Sliced American cheese",
+                            "nutrition": {
+                                "isVegan": false,
+                                "isVegetarian": false,
+                                "servingSize": null,
+                                "servingUnit": null,
+                                "calories": null,
+                                "caloriesFromFat": null,
+                                "totalFat": null,
+                                "transFat": null,
+                                "cholesterol": null,
+                                "sodium": null,
+                                "totalCarbohydrates": null,
+                                "dietaryFiber": null,
+                                "sugars": null,
+                                "protein": null,
+                                "vitaminA": null,
+                                "vitaminC": null,
+                                "calcium": null,
+                                "iron": null,
+                                "saturatedFat": null,
+                                "isEatWell": false,
+                                "isPlantForward": false,
+                                "isWholeGrain": false
+                            }
+                        }
+                    ]
+                },
+                {
+                    "category": "Salads",
+                    "items": [
+                        {
+                            "name": "Lettuce",
+                            "description": "Fresh lettuce leaves",
+                            "nutrition": {
+                                "isVegan": true,
+                                "isVegetarian": true,
+                                "servingSize": null,
+                                "servingUnit": null,
+                                "calories": null,
+                                "caloriesFromFat": null,
+                                "totalFat": null,
+                                "transFat": null,
+                                "cholesterol": null,
+                                "sodium": null,
+                                "totalCarbohydrates": null,
+                                "dietaryFiber": null,
+                                "sugars": null,
+                                "protein": null,
+                                "vitaminA": null,
+                                "vitaminC": null,
+                                "calcium": null,
+                                "iron": null,
+                                "saturatedFat": null,
+                                "isEatWell": false,
+                                "isPlantForward": false,
+                                "isWholeGrain": false
+                            }
+                        },
+                        {
+                            "name": "Sliced Red Onions",
+                            "description": "Thinly sliced red onions",
+                            "nutrition": {
+                                "isVegan": true,
+                                "isVegetarian": true,
+                                "servingSize": null,
+                                "servingUnit": null,
+                                "calories": null,
+                                "caloriesFromFat": null,
+                                "totalFat": null,
+                                "transFat": null,
+                                "cholesterol": null,
+                                "sodium": null,
+                                "totalCarbohydrates": null,
+                                "dietaryFiber": null,
+                                "sugars": null,
+                                "protein": null,
+                                "vitaminA": null,
+                                "vitaminC": null,
+                                "calcium": null,
+                                "iron": null,
+                                "saturatedFat": null,
+                                "isEatWell": false,
+                                "isPlantForward": false,
+                                "isWholeGrain": false
+                            }
+                        },
+                        {
+                            "name": "Sliced Tomatoes",
+                            "description": "Sliced fresh tomatoes",
+                            "nutrition": {
+                                "isVegan": true,
+                                "isVegetarian": true,
+                                "servingSize": null,
+                                "servingUnit": null,
+                                "calories": null,
+                                "caloriesFromFat": null,
+                                "totalFat": null,
+                                "transFat": null,
+                                "cholesterol": null,
+                                "sodium": null,
+                                "totalCarbohydrates": null,
+                                "dietaryFiber": null,
+                                "sugars": null,
+                                "protein": null,
+                                "vitaminA": null,
+                                "vitaminC": null,
+                                "calcium": null,
+                                "iron": null,
+                                "saturatedFat": null,
+                                "isEatWell": false,
+                                "isPlantForward": false,
+                                "isWholeGrain": false
+                            }
+                        }
+                    ]
+                },
+                {
+                    "category": "Condiments",
+                    "items": [
+                        {
+                            "name": "Dill Pickle Slices",
+                            "description": "Dill pickle slices",
+                            "nutrition": {
+                                "isVegan": true,
+                                "isVegetarian": true,
+                                "servingSize": null,
+                                "servingUnit": null,
+                                "calories": null,
+                                "caloriesFromFat": null,
+                                "totalFat": null,
+                                "transFat": null,
+                                "cholesterol": null,
+                                "sodium": null,
+                                "totalCarbohydrates": null,
+                                "dietaryFiber": null,
+                                "sugars": null,
+                                "protein": null,
+                                "vitaminA": null,
+                                "vitaminC": null,
+                                "calcium": null,
+                                "iron": null,
+                                "saturatedFat": null,
+                                "isEatWell": false,
+                                "isPlantForward": false,
+                                "isWholeGrain": false
+                            }
+                        }
+                    ]
+                },
+                {
+                    "category": "Sides",
+                    "items": [
+                        {
+                            "name": "Crinkle French Fries",
+                            "description": "Crispy crinkle cut fries",
+                            "nutrition": {
+                                "isVegan": true,
+                                "isVegetarian": true,
+                                "servingSize": "3",
+                                "servingUnit": "ozw",
+                                "calories": "150",
+                                "caloriesFromFat": null,
+                                "totalFat": "6",
+                                "transFat": "0",
+                                "cholesterol": "0",
+                                "sodium": "45",
+                                "totalCarbohydrates": "25",
+                                "dietaryFiber": "2",
+                                "sugars": "less than 1",
+                                "protein": "2",
+                                "vitaminA": "0.59",
+                                "vitaminC": "7.57",
+                                "calcium": "12.21",
+                                "iron": "0.35",
+                                "saturatedFat": "1",
+                                "isEatWell": false,
+                                "isPlantForward": false,
+                                "isWholeGrain": false
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "station": "The Twisted Root",
+            "menu": [
+                {
+                    "category": "Entr\u00e9es",
+                    "items": [
+                        {
+                            "name": "Cauliflower Lentil Curry",
+                            "description": "Cauliflower, carrots and broccoli in coconut curry sauce with tumeric over lentils",
+                            "nutrition": {
+                                "isVegan": false,
+                                "isVegetarian": false,
+                                "servingSize": "1",
+                                "servingUnit": "cup",
+                                "calories": "470",
+                                "caloriesFromFat": null,
+                                "totalFat": "11",
+                                "transFat": "0",
+                                "cholesterol": "0",
+                                "sodium": "400",
+                                "totalCarbohydrates": "69",
+                                "dietaryFiber": "12",
+                                "sugars": "5",
+                                "protein": "25",
+                                "vitaminA": "164.01",
+                                "vitaminC": "32.00",
+                                "calcium": "69.85",
+                                "iron": "7.23",
+                                "saturatedFat": "6",
+                                "isEatWell": false,
+                                "isPlantForward": false,
+                                "isWholeGrain": false
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "station": "Honeycakes",
+            "menu": [
+                {
+                    "category": "Desserts",
+                    "items": [
+                        {
+                            "name": "Chocolate Chunk  Cookie",
+                            "description": "Allergen friendly baked chocolate   chip cookie",
+                            "nutrition": {
+                                "isVegan": false,
+                                "isVegetarian": false,
+                                "servingSize": "1",
+                                "servingUnit": "cookie",
+                                "calories": "190",
+                                "caloriesFromFat": null,
+                                "totalFat": "8",
+                                "transFat": "0",
+                                "cholesterol": "0",
+                                "sodium": "100",
+                                "totalCarbohydrates": "28",
+                                "dietaryFiber": "less than 1",
+                                "sugars": "16",
+                                "protein": "2",
+                                "vitaminA": null,
+                                "vitaminC": "",
+                                "calcium": "9.89",
+                                "iron": "0.99",
+                                "saturatedFat": "4",
+                                "isEatWell": false,
+                                "isPlantForward": false,
+                                "isWholeGrain": false
+                            }
+                        },
+                        {
+                            "name": "Cranberry Oatmeal  Cookie",
+                            "description": "Allergen friendly baked cranberry   oatmeal cookie",
+                            "nutrition": {
+                                "isVegan": false,
+                                "isVegetarian": false,
+                                "servingSize": "1",
+                                "servingUnit": "cookie",
+                                "calories": "170",
+                                "caloriesFromFat": null,
+                                "totalFat": "5",
+                                "transFat": "0",
+                                "cholesterol": "0",
+                                "sodium": "110",
+                                "totalCarbohydrates": "29",
+                                "dietaryFiber": "2",
+                                "sugars": "15",
+                                "protein": "2",
+                                "vitaminA": null,
+                                "vitaminC": "0.00",
+                                "calcium": "10.88",
+                                "iron": "0.99",
+                                "saturatedFat": "2",
+                                "isEatWell": false,
+                                "isPlantForward": false,
+                                "isWholeGrain": false
+                            }
+                        },
+                        {
+                            "name": "Sugar Cookie",
+                            "description": "Sugar cookie made with plant-based butter & made-without-gluten flour",
+                            "nutrition": {
+                                "isVegan": false,
+                                "isVegetarian": false,
+                                "servingSize": "1",
+                                "servingUnit": "cookie",
+                                "calories": "180",
+                                "caloriesFromFat": null,
+                                "totalFat": "7",
+                                "transFat": "0",
+                                "cholesterol": "0",
+                                "sodium": "55",
+                                "totalCarbohydrates": "15",
+                                "dietaryFiber": "0",
+                                "sugars": "13",
+                                "protein": "1",
+                                "vitaminA": "56.95",
+                                "vitaminC": "0.00",
+                                "calcium": "12.00",
+                                "iron": "0.33",
+                                "saturatedFat": "4.5",
+                                "isEatWell": false,
+                                "isPlantForward": false,
+                                "isWholeGrain": false
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "station": "The Farm Stand (Salad)",
+            "menu": [
+                {
+                    "category": "Sides",
+                    "items": [
+                        {
+                            "name": "Roasted Cauliflower",
+                            "description": "Fresh cauliflower roasted and seasoned with salt and pepper",
+                            "nutrition": {
+                                "isVegan": true,
+                                "isVegetarian": true,
+                                "servingSize": "1",
+                                "servingUnit": "/2 cup",
+                                "calories": "50",
+                                "caloriesFromFat": null,
+                                "totalFat": "3.5",
+                                "transFat": "0",
+                                "cholesterol": "0",
+                                "sodium": "115",
+                                "totalCarbohydrates": "4",
+                                "dietaryFiber": "2",
+                                "sugars": "2",
+                                "protein": "2",
+                                "vitaminA": null,
+                                "vitaminC": "38.89",
+                                "calcium": "18.25",
+                                "iron": "0.35",
+                                "saturatedFat": "0",
+                                "isEatWell": true,
+                                "isPlantForward": true,
+                                "isWholeGrain": false
+                            }
+                        },
+                        {
+                            "name": "Roasted Root Vegetables",
+                            "description": "Roasted root vegetables",
+                            "nutrition": {
+                                "isVegan": false,
+                                "isVegetarian": false,
+                                "servingSize": "1",
+                                "servingUnit": "/2 cup",
+                                "calories": "80",
+                                "caloriesFromFat": null,
+                                "totalFat": "1.5",
+                                "transFat": "0",
+                                "cholesterol": "0",
+                                "sodium": "300",
+                                "totalCarbohydrates": "17",
+                                "dietaryFiber": "3",
+                                "sugars": "6",
+                                "protein": "2",
+                                "vitaminA": null,
+                                "vitaminC": "",
+                                "calcium": "44.36",
+                                "iron": "1.59",
+                                "saturatedFat": "0",
+                                "isEatWell": true,
+                                "isPlantForward": true,
+                                "isWholeGrain": false
+                            }
+                        },
+                        {
+                            "name": "Brown Lentils",
+                            "description": "Tender cooked brown lentils",
+                            "nutrition": {
+                                "isVegan": true,
+                                "isVegetarian": true,
+                                "servingSize": null,
+                                "servingUnit": null,
+                                "calories": null,
+                                "caloriesFromFat": null,
+                                "totalFat": null,
+                                "transFat": null,
+                                "cholesterol": null,
+                                "sodium": null,
+                                "totalCarbohydrates": null,
+                                "dietaryFiber": null,
+                                "sugars": null,
+                                "protein": null,
+                                "vitaminA": null,
+                                "vitaminC": null,
+                                "calcium": null,
+                                "iron": null,
+                                "saturatedFat": null,
+                                "isEatWell": false,
+                                "isPlantForward": false,
+                                "isWholeGrain": false
+                            }
+                        }
+                    ]
+                },
+                {
+                    "category": "Grains",
+                    "items": [
+                        {
+                            "name": "Croutons",
+                            "description": "Homestyle seasoned croutons",
+                            "nutrition": {
+                                "isVegan": false,
+                                "isVegetarian": true,
+                                "servingSize": null,
+                                "servingUnit": null,
+                                "calories": null,
+                                "caloriesFromFat": null,
+                                "totalFat": null,
+                                "transFat": null,
+                                "cholesterol": null,
+                                "sodium": null,
+                                "totalCarbohydrates": null,
+                                "dietaryFiber": null,
+                                "sugars": null,
+                                "protein": null,
+                                "vitaminA": null,
+                                "vitaminC": null,
+                                "calcium": null,
+                                "iron": null,
+                                "saturatedFat": null,
+                                "isEatWell": false,
+                                "isPlantForward": false,
+                                "isWholeGrain": false
+                            }
+                        },
+                        {
+                            "name": "Quinoa",
+                            "description": "Nutty-flavored grain",
+                            "nutrition": {
+                                "isVegan": true,
+                                "isVegetarian": true,
+                                "servingSize": null,
+                                "servingUnit": null,
+                                "calories": null,
+                                "caloriesFromFat": null,
+                                "totalFat": null,
+                                "transFat": null,
+                                "cholesterol": null,
+                                "sodium": null,
+                                "totalCarbohydrates": null,
+                                "dietaryFiber": null,
+                                "sugars": null,
+                                "protein": null,
+                                "vitaminA": null,
+                                "vitaminC": null,
+                                "calcium": null,
+                                "iron": null,
+                                "saturatedFat": null,
+                                "isEatWell": false,
+                                "isPlantForward": false,
+                                "isWholeGrain": false
+                            }
+                        }
+                    ]
+                },
+                {
+                    "category": "Salads",
+                    "items": [
+                        {
+                            "name": "Baby Spinach",
+                            "description": "Fresh baby spinach",
+                            "nutrition": {
+                                "isVegan": true,
+                                "isVegetarian": true,
+                                "servingSize": null,
+                                "servingUnit": null,
+                                "calories": null,
+                                "caloriesFromFat": null,
+                                "totalFat": null,
+                                "transFat": null,
+                                "cholesterol": null,
+                                "sodium": null,
+                                "totalCarbohydrates": null,
+                                "dietaryFiber": null,
+                                "sugars": null,
+                                "protein": null,
+                                "vitaminA": null,
+                                "vitaminC": null,
+                                "calcium": null,
+                                "iron": null,
+                                "saturatedFat": null,
+                                "isEatWell": false,
+                                "isPlantForward": false,
+                                "isWholeGrain": false
+                            }
+                        },
+                        {
+                            "name": "Black Olives",
+                            "description": "Sliced pitted black olives",
+                            "nutrition": {
+                                "isVegan": true,
+                                "isVegetarian": true,
+                                "servingSize": null,
+                                "servingUnit": null,
+                                "calories": null,
+                                "caloriesFromFat": null,
+                                "totalFat": null,
+                                "transFat": null,
+                                "cholesterol": null,
+                                "sodium": null,
+                                "totalCarbohydrates": null,
+                                "dietaryFiber": null,
+                                "sugars": null,
+                                "protein": null,
+                                "vitaminA": null,
+                                "vitaminC": null,
+                                "calcium": null,
+                                "iron": null,
+                                "saturatedFat": null,
+                                "isEatWell": false,
+                                "isPlantForward": false,
+                                "isWholeGrain": false
+                            }
+                        },
+                        {
+                            "name": "Cantaloupe",
+                            "description": "Cubed fresh cantaloupe",
+                            "nutrition": {
+                                "isVegan": true,
+                                "isVegetarian": true,
+                                "servingSize": null,
+                                "servingUnit": null,
+                                "calories": null,
+                                "caloriesFromFat": null,
+                                "totalFat": null,
+                                "transFat": null,
+                                "cholesterol": null,
+                                "sodium": null,
+                                "totalCarbohydrates": null,
+                                "dietaryFiber": null,
+                                "sugars": null,
+                                "protein": null,
+                                "vitaminA": null,
+                                "vitaminC": null,
+                                "calcium": null,
+                                "iron": null,
+                                "saturatedFat": null,
+                                "isEatWell": false,
+                                "isPlantForward": false,
+                                "isWholeGrain": false
+                            }
+                        },
+                        {
+                            "name": "Cucumbers",
+                            "description": "Sliced fresh cucumbers",
+                            "nutrition": {
+                                "isVegan": true,
+                                "isVegetarian": true,
+                                "servingSize": null,
+                                "servingUnit": null,
+                                "calories": null,
+                                "caloriesFromFat": null,
+                                "totalFat": null,
+                                "transFat": null,
+                                "cholesterol": null,
+                                "sodium": null,
+                                "totalCarbohydrates": null,
+                                "dietaryFiber": null,
+                                "sugars": null,
+                                "protein": null,
+                                "vitaminA": null,
+                                "vitaminC": null,
+                                "calcium": null,
+                                "iron": null,
+                                "saturatedFat": null,
+                                "isEatWell": false,
+                                "isPlantForward": false,
+                                "isWholeGrain": false
+                            }
+                        },
+                        {
+                            "name": "Diced Pineapple",
+                            "description": "Fresh diced pineapple",
+                            "nutrition": {
+                                "isVegan": true,
+                                "isVegetarian": true,
+                                "servingSize": null,
+                                "servingUnit": null,
+                                "calories": null,
+                                "caloriesFromFat": null,
+                                "totalFat": null,
+                                "transFat": null,
+                                "cholesterol": null,
+                                "sodium": null,
+                                "totalCarbohydrates": null,
+                                "dietaryFiber": null,
+                                "sugars": null,
+                                "protein": null,
+                                "vitaminA": null,
+                                "vitaminC": null,
+                                "calcium": null,
+                                "iron": null,
+                                "saturatedFat": null,
+                                "isEatWell": false,
+                                "isPlantForward": false,
+                                "isWholeGrain": false
+                            }
+                        },
+                        {
+                            "name": "Garbanzo Beans",
+                            "description": "Garbanzo beans",
+                            "nutrition": {
+                                "isVegan": true,
+                                "isVegetarian": true,
+                                "servingSize": null,
+                                "servingUnit": null,
+                                "calories": null,
+                                "caloriesFromFat": null,
+                                "totalFat": null,
+                                "transFat": null,
+                                "cholesterol": null,
+                                "sodium": null,
+                                "totalCarbohydrates": null,
+                                "dietaryFiber": null,
+                                "sugars": null,
+                                "protein": null,
+                                "vitaminA": null,
+                                "vitaminC": null,
+                                "calcium": null,
+                                "iron": null,
+                                "saturatedFat": null,
+                                "isEatWell": false,
+                                "isPlantForward": false,
+                                "isWholeGrain": false
+                            }
+                        },
+                        {
+                            "name": "Grape Tomatoes",
+                            "description": "Fresh grape tomatoes",
+                            "nutrition": {
+                                "isVegan": true,
+                                "isVegetarian": true,
+                                "servingSize": null,
+                                "servingUnit": null,
+                                "calories": null,
+                                "caloriesFromFat": null,
+                                "totalFat": null,
+                                "transFat": null,
+                                "cholesterol": null,
+                                "sodium": null,
+                                "totalCarbohydrates": null,
+                                "dietaryFiber": null,
+                                "sugars": null,
+                                "protein": null,
+                                "vitaminA": null,
+                                "vitaminC": null,
+                                "calcium": null,
+                                "iron": null,
+                                "saturatedFat": null,
+                                "isEatWell": false,
+                                "isPlantForward": false,
+                                "isWholeGrain": false
+                            }
+                        },
+                        {
+                            "name": "Honeydew Melon",
+                            "description": "Cubed honeydew melon",
+                            "nutrition": {
+                                "isVegan": true,
+                                "isVegetarian": true,
+                                "servingSize": null,
+                                "servingUnit": null,
+                                "calories": null,
+                                "caloriesFromFat": null,
+                                "totalFat": null,
+                                "transFat": null,
+                                "cholesterol": null,
+                                "sodium": null,
+                                "totalCarbohydrates": null,
+                                "dietaryFiber": null,
+                                "sugars": null,
+                                "protein": null,
+                                "vitaminA": null,
+                                "vitaminC": null,
+                                "calcium": null,
+                                "iron": null,
+                                "saturatedFat": null,
+                                "isEatWell": false,
+                                "isPlantForward": false,
+                                "isWholeGrain": false
+                            }
+                        },
+                        {
+                            "name": "Romaine Lettuce",
+                            "description": "Chopped romaine lettuce",
+                            "nutrition": {
+                                "isVegan": true,
+                                "isVegetarian": true,
+                                "servingSize": null,
+                                "servingUnit": null,
+                                "calories": null,
+                                "caloriesFromFat": null,
+                                "totalFat": null,
+                                "transFat": null,
+                                "cholesterol": null,
+                                "sodium": null,
+                                "totalCarbohydrates": null,
+                                "dietaryFiber": null,
+                                "sugars": null,
+                                "protein": null,
+                                "vitaminA": null,
+                                "vitaminC": null,
+                                "calcium": null,
+                                "iron": null,
+                                "saturatedFat": null,
+                                "isEatWell": false,
+                                "isPlantForward": false,
+                                "isWholeGrain": false
+                            }
+                        },
+                        {
+                            "name": "Shredded Carrots",
+                            "description": "Shredded fresh carrots",
+                            "nutrition": {
+                                "isVegan": true,
+                                "isVegetarian": true,
+                                "servingSize": null,
+                                "servingUnit": null,
+                                "calories": null,
+                                "caloriesFromFat": null,
+                                "totalFat": null,
+                                "transFat": null,
+                                "cholesterol": null,
+                                "sodium": null,
+                                "totalCarbohydrates": null,
+                                "dietaryFiber": null,
+                                "sugars": null,
+                                "protein": null,
+                                "vitaminA": null,
+                                "vitaminC": null,
+                                "calcium": null,
+                                "iron": null,
+                                "saturatedFat": null,
+                                "isEatWell": false,
+                                "isPlantForward": false,
+                                "isWholeGrain": false
+                            }
+                        },
+                        {
+                            "name": "Sliced Mixed Bell Peppers",
+                            "description": "Sliced green and red bell peppers",
+                            "nutrition": {
+                                "isVegan": true,
+                                "isVegetarian": true,
+                                "servingSize": null,
+                                "servingUnit": null,
+                                "calories": null,
+                                "caloriesFromFat": null,
+                                "totalFat": null,
+                                "transFat": null,
+                                "cholesterol": null,
+                                "sodium": null,
+                                "totalCarbohydrates": null,
+                                "dietaryFiber": null,
+                                "sugars": null,
+                                "protein": null,
+                                "vitaminA": null,
+                                "vitaminC": null,
+                                "calcium": null,
+                                "iron": null,
+                                "saturatedFat": null,
+                                "isEatWell": false,
+                                "isPlantForward": false,
+                                "isWholeGrain": false
+                            }
+                        },
+                        {
+                            "name": "Chopped Kale",
+                            "description": "Chopped kale",
+                            "nutrition": {
+                                "isVegan": true,
+                                "isVegetarian": true,
+                                "servingSize": null,
+                                "servingUnit": null,
+                                "calories": null,
+                                "caloriesFromFat": null,
+                                "totalFat": null,
+                                "transFat": null,
+                                "cholesterol": null,
+                                "sodium": null,
+                                "totalCarbohydrates": null,
+                                "dietaryFiber": null,
+                                "sugars": null,
+                                "protein": null,
+                                "vitaminA": null,
+                                "vitaminC": null,
+                                "calcium": null,
+                                "iron": null,
+                                "saturatedFat": null,
+                                "isEatWell": false,
+                                "isPlantForward": false,
+                                "isWholeGrain": false
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
+
+Process finished with exit code 0
