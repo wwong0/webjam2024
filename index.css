@@ -1,0 +1,28 @@
+*{
+    font-family: 'Roboto';
+    overflow-y: hidden;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#first-page {
+    display:flex;
+    animation-name: background-animation;
+    animation-duration: 1s;
+    background-image: url('petr2.jpg');
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    background-position: center;
+}
+
+.page {
+    display:none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+
+    background: linear-gradient(to top,#00B294,#00BCf2);
+}

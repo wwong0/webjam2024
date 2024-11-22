@@ -1,4 +1,5 @@
 import os
+import button_functions
 
 from flask import Flask
 
@@ -24,10 +25,8 @@ def create_app(test_config=None):
     except OSError:
         pass
 
-    # a simple page that says hello
-    @app.route('/hello')
-    def hello():
-        return 'Hello, World!'
+    import button_functions
+    app.register_blueprint(button_functions.bp)
 
     return app
 
