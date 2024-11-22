@@ -1,0 +1,31 @@
+.days-container {
+    height: 70vh;
+    overflow-y: auto;
+}
+
+.nutrition-section {
+    height: 30vh;
+    background-color: #f8f9fa;
+}
+
+.search-result {
+    padding: 10px;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.right-section {
+    height: 100vh;
+    overflow-y: auto;
+    background-color: #fff;
+}
+
+.day-header {
+    font-size: 0.9rem;
+    padding: 0.5rem !important;
+    text-align: center;
+}
+
+.day-item {
+    font-size: 0.8rem;
+    padding: 0.25rem !important;
+}
