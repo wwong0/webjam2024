@@ -6,7 +6,6 @@ import pandas as pd
 
 SAMPLE_WEEKLY_OUTPUT = 'sample_weekly_output.json'
 
-
 # as of 11/19/2024 10:10 pm records from 11/08/24 - 11/27/24 are available
 # date = datetime.today() - timedelta(days=14)
 def dump_menu(start_date, end_date):
