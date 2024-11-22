@@ -39,6 +39,11 @@ class Weekly_Menu:
                             item_name = item['name']
                             description = item['description']
                             nutrition = item['nutrition']
+                            for key, nutrient in nutrition.items():
+                                item['nutrition'][key] = float(nutrient) if type(
+                                    nutrient) is str and nutrient.isnumeric() else nutrient
+                                item['nutrition'][key] = 0 if nutrient is None else nutrient
+
 
                             unique_id = count
                             count += 1
@@ -67,6 +72,9 @@ class Weekly_Menu:
                             item_name = item['name']
                             description = item['description']
                             nutrition = item['nutrition']
+                            for key, nutrient in nutrition.items():
+                                item['nutrition'][key] = float(nutrient) if type(nutrient) is str and nutrient.isnumeric() else nutrient
+                                item['nutrition'][key] = 0 if nutrient is None else nutrient
 
                             unique_id = count
                             count += 1
@@ -101,7 +109,7 @@ class Weekly_Menu:
                 schedule = meal['schedule']
         return schedule'''
 
-    def available_items_by_meal(self, date, time, hall):
+    '''def available_items_by_meal(self, date, time, hall):
         schedule = self._get_schedule(date, hall)
         current_time = time.strftime('%H%M')
         items = []
@@ -114,14 +122,52 @@ class Weekly_Menu:
 
         searchable_date = date.strftime('%m/%d/%Y')
         return self.df.loc(axis = 0)[:, searchable_date, hall, selected_meal_type, :, :, :, :]
-
+    '''
     def get_item_from_id(self, unique_id):
         return self.df[self.df['id'] == unique_id]
 
-    def get_item_from_name(self, name):
-        return self.df.loc(axis = 0)[:, :, :, :, :, :, name, :]
+    def get_item_id_from_name(self, name):
+        return self.df.loc(axis = 0)[:, :, :, :, :, :, name, :].todict('records')
+
+    def search(self, date, meal_type, hall, vegan, vegetarian, search_order):
+        conditions = {}
+        if date is not None:
+            conditions['Date'] = date
+        if meal_type is not None:
+            conditions['Meal'] = meal_type
+        if hall is not None:
+            conditions['Dining Hall'] = hall
+        if vegan is not None:
+            conditions['isVegan'] = vegan
+        if vegetarian is not None:
+            conditions['isVegetarian'] = vegetarian
+
+        if conditions:
+            result = self.df.loc[tuple(conditions.get(level) for level in self.df.index.names)]
+        else:
+            result = self.df
+
+        if search_order is not None:
+            result = self.sort(result)
+        return result
+
+
+    def sort(self, search_order, ascending=False):
+        dataframe = self.df.copy()
+
+        if search_order is None:
+            return dataframe
+        if search_order == 'alphabetical':
+            return dataframe.sort_values(by = ['Item'], ascending = ascending)
+        if search_order == 'calories':
+            return dataframe.sort_values(by = ['calories'], ascending = ascending)
+        if search_order == 'sugar':
+            return dataframe.sort_values(by = ['sugars'], ascending = ascending)
+        if search_order == 'protein':
+            return dataframe.sort_values(by = ['protein'], ascending = ascending)
 
 
 if __name__ == '__main__':
     pass
-    #dump_menu(datetime.today(), datetime.today() + timedelta(days=7))
+    dump_menu(datetime.today()- timedelta(days=4), datetime.today() + timedelta(days=3))
+
