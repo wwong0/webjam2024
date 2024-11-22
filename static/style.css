@@ -30,6 +30,11 @@
     background-color: rgba(0, 0, 0, 0.05);
 }
 
+.day-selected {
+    background-color: rgba(0, 123, 255, 0.2); /* Light blue background */
+    border-color: #007bff; /* Optional: change border color for emphasis */
+}
+
 .nutrition-section {
     height: 30vh;
     background-color: #f8f9fa;
