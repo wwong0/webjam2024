@@ -35,6 +35,10 @@
     background-color: #f8f9fa;
 }
 
+.advanced-search-button{
+    height: 38px;
+}
+
 .search-result {
     padding: 10px;
     border-bottom: 1px solid #dee2e6;
