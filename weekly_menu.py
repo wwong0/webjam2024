@@ -127,28 +127,28 @@ class Weekly_Menu:
         return self.df[self.df['id'] == unique_id]
 
     def get_item_id_from_name(self, name):
-        return self.df.loc(axis = 0)[:, :, :, :, :, :, name, :].todict('records')
+        return self.df.loc(axis = 0)[:, :, :, :, :, :, name, :]
 
-    def search(self, date, meal_type, hall, vegan, vegetarian, search_order):
-        conditions = {}
-        if date is not None:
-            conditions['Date'] = date
-        if meal_type is not None:
-            conditions['Meal'] = meal_type
-        if hall is not None:
-            conditions['Dining Hall'] = hall
-        if vegan is not None:
-            conditions['isVegan'] = vegan
-        if vegetarian is not None:
-            conditions['isVegetarian'] = vegetarian
+    def search(self, date, meal_type, hall, vegan, vegetarian, search_order, ascending):
+        result = self.df.copy()
 
-        if conditions:
-            result = self.df.loc[tuple(conditions.get(level) for level in self.df.index.names)]
-        else:
-            result = self.df
+        idx_slices = [
+            date if date is not None else slice(None),  # Date level
+            hall if hall is not None else slice(None),  # Dining Hall level
+            meal_type if meal_type is not None else slice(None)  # Meal level
+        ]
+
+        idx_slices.extend([slice(None)] * 3)  # For Station, Category, and Item
+
+        result = result.loc[tuple(idx_slices)]
+        if vegan:
+            result = result[result['isVegan'] == True]
+
+        if vegetarian:
+            result = result[result['isVegetarian'] == True]
 
         if search_order is not None:
-            result = self.sort(result)
+            result = self.sort(search_order, ascending)
         return result
 
 

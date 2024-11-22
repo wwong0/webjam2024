@@ -14,7 +14,7 @@
 <body>
 <div class="container-fluid">
     <div class="row vh-100">
-        <!-- Right Section (70%) -->
+        <!-- Left Section (70%) -->
         <div class="col-9 p-0">
             <!-- Days Section (70%) -->
             <div class="days-container">
@@ -77,61 +77,81 @@
         <div class="col-3 right-section" style="background-color: white ;">
             <div class="p-3">
                 <!-- Search Bar -->
-                <div class="d-flex">
-                    <div class="mb-4 flex-grow-1 ">
+                <div class="d-flex justify-content-center">
+                    <div class="mb-3 flex-grow-1 ">
                         <label>
                             <input type="text" class="form-control" placeholder="Search..." id = 'searchInput'>
                         </label>
                     </div>
-                    <button class="btn ms-1 advanced-search-button" type="button">
+                    <button class="btn advanced-search-button"  type="button">
                         <span class='fa-solid fa-bars'></span>
                     </button>
                 </div>
+            </div>
 
 
+            <div class = 'advanced-search-options '>
                 <div class="d-flex">
                     <div class="mb-4 flex-grow-1 ">
                         <select class="form-select"
-                                aria-label="Default select example"></select>
+                                id = "sortSelecter">
+                            <option selected value = 'None'>None</option>
+                            <option value="alphabetical">Alphabetical</option>
+                            <option value="sugar">Sugar</option>
+                            <option value="protein">Protein</option>
+                        </select>
                     </div>
                     <button class="btn btn-primary ms-3 asc-desc-button" type="button">
-                        <span class='fa-solid fa-sort-up'></span>
+                        <span class='fa-solid fa-sort-up' id = asc-desc-icon></span>
                         <!--<span class='fa-solid fa-sort-down'></span>-->
                     </button>
                 </div>
-                <div class="d-flex">
-                    <div class="form-check">
+                <div class="d-flex justify-content-center mb-4">
+                    <div class="form-check mx-3">
                         <input class="form-check-input" type="checkbox" value=""
-                               id="flexCheckDefault">
-                        <label class="form-check-label" for="flexCheckDefault">
-                            Default checkbox
+                               id="Vegetarian">
+                        <label class="form-check-label" for="Vegetarian">
+                            Vegetarian
                         </label>
                     </div>
-                    <div class="form-check">
+                    <div class="form-check mx-3">
                         <input class="form-check-input" type="checkbox" value=""
-                               id="flexCheckChecked" checked>
-                        <label class="form-check-label" for="flexCheckChecked">
-                            Checked checkbox
+                               id="Vegan">
+                        <label class="form-check-label" for="Vegan">
+                            Vegan
                         </label>
                     </div>
                 </div>
-                <div class="d-flex mb-4 ">
+            </div>
 
-                    <div class="btn-group meal-buttons" role="group">
-                        <button type="button" class="btn btn-outline-primary meal-button"
-                                id="breakfast">
-                            Breakfast
-                        </button>
-                        <button type="button" class="btn btn-outline-primary meal-button"
-                                id="lunch">Lunch
-                        </button>
-                        <button type="button" class="btn btn-outline-primary meal-button"
-                                id="dinner">
-                            Dinner
-                        </button>
+            <div class="d-flex">
+                    <div class="mb-3 flex-grow-1">
+                        <select class="form-select"
+                                id = "hallSelecter">
+                            <option selected value = 'Both'>Both</option>
+                            <option value="brandywine">Brandywine</option>
+                            <option value="anteatery">Anteatery</option>
+                        </select>
                     </div>
-                </div>
+            </div>
 
+
+            <div class="d-flex mb-4 justify-content-center ">
+
+                <div class="btn-group meal-buttons" role="group">
+                    <button type="button" class="btn btn-outline-primary meal-button"
+                            id="breakfast">
+                        Breakfast
+                    </button>
+                    <button type="button" class="btn btn-outline-primary meal-button"
+                            id="lunch">Lunch
+                    </button>
+                    <button type="button" class="btn btn-outline-primary meal-button"
+                            id="dinner">
+                        Dinner
+                    </button>
+                </div>
+            </div>
 
                 <!-- Search Results -->
                 <div class="search-results">

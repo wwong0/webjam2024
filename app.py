@@ -21,8 +21,9 @@ def fuzzy_search():
     vegan = query.get('vegan')
     vegetarian = query.get('vegetarian')
     search_order = query.get('search_order')
+    asc_desc = query.get('asc_desc')
 
-    searched_data = data.search(date, meal_type, hall, vegan, vegetarian, search_order)
+    searched_data = data.search(date, meal_type, hall, vegan, vegetarian, search_order, asc_desc)
 
     searched_data_dict = {}
     for idx, row in searched_data.reset_index().iterrows():
