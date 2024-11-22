@@ -4,15 +4,17 @@ from datetime import datetime, timedelta
 import json
 import pandas as pd
 
+
 SAMPLE_WEEKLY_OUTPUT = 'sample_weekly_output.json'
 
 
-#as of 11/19/2024 10:10 pm records from 11/08/24 - 11/27/24 are available
-#date = datetime.today() - timedelta(days=14)
+# as of 11/19/2024 10:10 pm records from 11/08/24 - 11/27/24 are available
+# date = datetime.today() - timedelta(days=14)
 def dump_menu(start_date, end_date):
     delta = abs((start_date - end_date).days)
-    with open(pathlib.Path('sample_weekly_output.json'), 'w', encoding= 'utf-8') as f:
+    with open(pathlib.Path('sample_weekly_output.json'), 'w', encoding = 'utf-8') as f:
         json.dump(weekMenu.week_menu_dict(start_date, delta), f, indent = 4)
+
 
 class Weekly_Menu:
     def __init__(self, date):
@@ -114,15 +116,14 @@ class Weekly_Menu:
                 selected_meal_type = meal_type_name
 
         searchable_date = date.strftime('%m/%d/%Y')
-        return self.df.loc(axis=0)[:, searchable_date, hall, selected_meal_type, :, :, :, :]
+        return self.df.loc(axis = 0)[:, searchable_date, hall, selected_meal_type, :, :, :, :]
 
     def get_item_from_id(self, unique_id):
         return self.df[self.df['id'] == unique_id]
 
     def get_item_from_name(self, name):
-        return self.df.loc(axis=0)[:, :, :, :, :, :, name, :]
+        return self.df.loc(axis = 0)[:, :, :, :, :, :, name, :]
+
 
 if __name__ == '__main__':
     pass
-
-
