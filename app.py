@@ -32,14 +32,14 @@ def fuzzy_search():
             searched_data_dict[str(name)] = row
 
     matches = []
-    if search_term != '':
+    if search_term:
         results = fuzzywuzzy.process.extract(search_term, searched_data_dict.keys(), limit = 10)
         for result in results:
             name = result[0]
             row = searched_data_dict[name]
             matches.append(row.to_dict())
     else:
-        for _, row in data.df.reset_index().iterrows():
+        for name, row in searched_data_dict.items():
             matches.append(row.to_dict())
 
     return jsonify(matches)
