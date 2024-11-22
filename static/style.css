@@ -31,8 +31,14 @@
 }
 
 .day-selected {
-    background-color: rgba(0, 123, 255, 0.2); /* Light blue background */
-    border-color: #007bff; /* Optional: change border color for emphasis */
+    background-color: rgba(0, 123, 255, 0.2) !important;
+    border-color: #007bff;
+}
+
+.right-section {
+    height: 100vh;
+    overflow-y: auto;
+    background-color: #fff;
 }
 
 .nutrition-section {
@@ -44,18 +50,42 @@
     height: 38px;
 }
 
+.asc-desc-button{
+    height: 38px;
+}
+
 .search-result {
     padding: 10px;
     border-bottom: 1px solid #dee2e6;
     transition: background-color 0.2s ease;
+    position: relative;
 }
 
 .search-result:hover {
     background-color: rgba(0, 0, 0, 0.05);
 }
 
-.right-section {
-    height: 100vh;
-    overflow-y: auto;
-    background-color: #fff;
+.search-selected {
+    background-color: rgba(0, 123, 255, 0.2) !important;
+    border-color: #007bff;
 }
+
+.calories-item {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    background-color: #f8d7da; /* Light red background for visibility */
+    color: #721c24; /* Dark red text color */
+    padding: 4px 8px;
+    font-size: 0.8rem;
+    border-radius: 12px;
+}
+
+.vegan-badge {
+
+}
+
+.vegetarian-badge {
+
+}
+
