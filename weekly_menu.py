@@ -4,7 +4,6 @@ from datetime import datetime, timedelta
 import json
 import pandas as pd
 
-
 SAMPLE_WEEKLY_OUTPUT = 'sample_weekly_output.json'
 
 
@@ -14,7 +13,6 @@ def dump_menu(start_date, end_date):
     delta = abs((start_date - end_date).days)
     with open(pathlib.Path('sample_weekly_output.json'), 'w', encoding = 'utf-8') as f:
         json.dump(weekMenu.week_menu_dict(start_date, delta), f, indent = 4)
-
 
 class Weekly_Menu:
     def __init__(self, date):
@@ -96,13 +94,13 @@ class Weekly_Menu:
 
         return df
 
-    def _get_schedule(self, date, hall):
+    '''def _get_schedule(self, date, hall):
         date = date.strftime('%m/%d/%Y')
         hall_index = 0 if hall == 'Brandywine' else 1
         for meal in self.weekly_output[hall_index]:
             if meal['date'] == date:
                 schedule = meal['schedule']
-        return schedule
+        return schedule'''
 
     def available_items_by_meal(self, date, time, hall):
         schedule = self._get_schedule(date, hall)
@@ -127,3 +125,4 @@ class Weekly_Menu:
 
 if __name__ == '__main__':
     pass
+    #dump_menu(datetime.today(), datetime.today() + timedelta(days=7))

@@ -42,7 +42,7 @@ def week_menu_dict(start_date: datetime, days) -> list:
 
     brandywine_list = []
     anteatery_list = []
-    for i in range(1, days):
+    for i in range(0, days):
         next_date = start_date + timedelta(days=i)
         date_string = next_date.strftime('%m/%d/%Y')
 
