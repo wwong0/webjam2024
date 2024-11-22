@@ -1,32 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
-    /*
-    //search bar
-    const searchInput = document.getElementById('searchInput');
-    const resultsDiv = document.getElementById('results');
 
-    searchInput.addEventListener('input', function () {
-        const query = searchInput.value;
 
-        fetch('/search', {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json'
-            },
-            body: JSON.stringify({query: query})
-        })
-            .then(function (response) {
-                return response.json();
-            })
-            .then(function (data) {
-                resultsDiv.innerHTML = '';
-
-                data.matches.forEach(function (match) {
-                    /*let p = document.createElement('p');
-                    p.textContent = match;
-                    resultsDiv.appendChild(p);*/
-                });
-            })
-    });
 
 
     const dayCols = document.querySelectorAll('.day-col');
@@ -53,7 +27,7 @@ function selectCol(col) {
     if (col.getAttribute('day') === 'monday') {
         daySelectedList[col.getAttribute('day')] = true;
     }
-    col.classList.add('selected')
+    col.classList.add('day-selected')
 }
 
 function clearColSelection(dayCols) {
@@ -62,7 +36,7 @@ function clearColSelection(dayCols) {
     }
 
     dayCols.forEach(function (col) {
-        col.classList.remove('selected')
+        col.classList.remove('day-selected')
     })
 
 }
