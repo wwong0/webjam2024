@@ -10,7 +10,7 @@ def index():
 def fuzzy_search():
     query = request.json.get('query', '')
     if query != '':
-        results = fuzzywuzzy.process.extract(query, data)
+        results = fuzzywuzzy.process.extract(query, data, limit = 10)
         matches = [result[0] for result in results]
     else:
         matches = []
